@@ -1,0 +1,31 @@
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+margin: 100px auto;
+animation-name: identifier;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+}
+@keyframes identifier {
+    0%{
+        background-color: red;
+        transform: translate(0,0);
+    }
+    25%{
+        background-color: blue;
+        transform: translate(0,200px);
+    }
+    50%{
+        background-color: green;
+transform: translate(200px,200px);
+    }
+    75%{
+        background-color: yellow;
+        transform: translate(200px,0);
+    }
+    100%{
+        background-color: red;
+        transform: translate(0,0);
+    }
+}
